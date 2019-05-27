@@ -8,4 +8,4 @@ script:
 
 deploy:
   provider: heroku
-  api_key: $GITHUB_TOKEN
+  api_key: 0c248be2-00ee-45be-8a1c-bbc8cb4ba53b
