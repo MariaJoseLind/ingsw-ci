@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h1>TITULITO</h1>
+        <h1>TITULITO 2</h1>
         <p>
           HOLIS MAJO, ESTOY ANDANDO Y MUESTRO NOTIFICACION
         </p>
