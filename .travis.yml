@@ -4,11 +4,18 @@ install:
   - npm install ci
 
 script:
+  - npm sonar-scanner
   - npm build 
 
 deploy:
   provider: heroku
-  api_key: 0c248be2-00ee-45be-8a1c-bbc8cb4ba53b
+  api_key: $HEROKU_TOKEN
 
 notifications:
   slack: is-utn-2019:C8jMW51RUaWN8bgFivDvPmYh
+
+addons:
+  sonarcloud:
+    organization: "ing-sw" 
+    token:
+      secure: $SONAR_TOKEN
