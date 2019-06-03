@@ -11,8 +11,8 @@ const information = [
             },
             {
                 name: 'Julian',
-                lastName: 'Vasques',
-                mail: 'julianvasques@gmail.com',
+                lastName: 'Vasquez',
+                mail: 'julianvasquez@gmail.com',
                 sex: 'M',
                 key: 2    
             },
@@ -26,7 +26,7 @@ const information = [
         ]
     },
     {
-        groupName: 'grupoX',
+        groupName: 'grupo 2',
         memers: [
             {
                 name: 'name1',
